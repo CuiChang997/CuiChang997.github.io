@@ -139,18 +139,20 @@
                 <div id="lightgallery" class="markdown-body">
                     <h3 id="搭建博客后的theme完善"><a href="#搭建博客后的theme完善" class="headerlink" title="搭建博客后的theme完善"></a>搭建博客后的theme完善</h3><p style="text-indent:2em">我主要做了这些方面的完善
 
-</p><ul>
-<li><p>添加主页音乐</p>
-<p style="text-indent:2em">由于每个theme的目录都不一样，挑选了网易云音乐的歌单音乐iframe外链，加在theme/layout/_Partials/header.swig中。一开始遇到了一些问题，只显示了网易云音乐的播放器，但是点不动。后来发现应该是被前面的代码挡住了，在css文件中添加了iframe{z-index:9999}，使其最大优先运行</p></li>
-<li><p>寻找图床，定义我每篇博文的cover_img，feature_img</p>
-<p style="text-indent:2em">我对于图床没有什么特别的要求，只要它能实现比较稳定的外链功能就行，方便我使用。网上随便搜了一下“图片外链”，使用的是贴图库。使用图片外链，直接就能在我的page里应用。</p></li>
-<li><p>加了一个萌萌哒的妹子</p>
-<p style="text-indent:2em">女生对于可爱的事物总有着谜一样的执着，看了网上的一些教程，我给博客按了个看板娘，使用npm install --save hexo-helper-live2d，下载了live2d， 使用 npm install {packagename}命令进行下载模型。在Hexo的_config.yml文件文件下添加相应配置。hexo clean-g-s-d一顿操作后妹子就上线了~</p></li>
-<li><p>添加了点击爱心效果</p>
-<p style="text-indent:2em">在主题js/src文件下新创建了一个love.js文件，写入相应代码，并在_layout.swig文件的标签加入script</p></li>
-</ul>
-<hr>
-<h3 id="后续还会有更新…可能我比较喜欢折腾hhh"><a href="#后续还会有更新…可能我比较喜欢折腾hhh" class="headerlink" title="后续还会有更新…可能我比较喜欢折腾hhh"></a>后续还会有更新…可能我比较喜欢折腾hhh</h3>
+</p><p style="text-indent:2em">**添加主页音乐**
+</p><p style="text-indent:2em">由于每个theme的目录都不一样，挑选了网易云音乐的歌单音乐iframe外链，加在theme/layout/_Partials/header.swig中。一开始遇到了一些问题，只显示了网易云音乐的播放器，但是点不动。后来发现应该是被前面的代码挡住了，在css文件中添加了iframe{z-index:9999}，使其最大优先运行
+
+</p><p style="text-indent:2em">**寻找图床，定义我每篇博文的cover_img，feature_img**
+ </p><p style="text-indent:2em">我对于图床没有什么特别的要求，只要它能实现比较稳定的外链功能就行，方便我使用。网上随便搜了一下“图片外链”，使用的是贴图库。使用图片外链，直接就能在我的page里应用。
+
+</p><p style="text-indent:2em">**加了一个萌萌哒的妹子**
+ </p><p style="text-indent:2em">女生对于可爱的事物总有着谜一样的执着，看了网上的一些教程，我给博客按了个看板娘，使用npm install --save hexo-helper-live2d，下载了live2d， 使用 npm install {packagename}命令进行下载模型。在Hexo的_config.yml文件文件下添加相应配置。hexo clean-g-s-d一顿操作后妹子就上线了~
+
+</p><p style="text-indent:2em">**添加了点击爱心效果**
+ </p><p style="text-indent:2em">在主题js/src文件下新创建了一个love.js文件，写入相应代码，并在_layout.swig文件的标签加入script
+ 
+
+</p><h3 id="后续还会有更新…可能我比较喜欢折腾hhh"><a href="#后续还会有更新…可能我比较喜欢折腾hhh" class="headerlink" title="后续还会有更新…可能我比较喜欢折腾hhh"></a>后续还会有更新…可能我比较喜欢折腾hhh</h3>
                 </div>
             </section>
         </article>
